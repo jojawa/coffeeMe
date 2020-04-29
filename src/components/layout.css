@@ -1,0 +1,58 @@
+:root {
+  --mainBrown: #2d1e1f;
+  --mainYellow: rgb(255, 158, 9);
+  --mainGray: #ece8dc;
+  --mainLight: #fff;
+  --mainDark: #222;
+}
+body {
+  background: var(--mainLight);
+  color: var(--mainDark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
+  letter-spacing: 0.25rem !important;
+}
+.text-yellow {
+  color: var(--mainYellow);
+}
+.cart-icon {
+  color: var(--mainYellow);
+  cursor: pointer;
+  font-size: 2rem;
+}
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; /*aligns items vertically*/
+  justify-content: center; /*aligns items horizonally*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-yellow {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+  cursor: pointer;
+}
+.btn-yellow:hover {
+  background: var(--mainYellow);
+  color: var(--mainBrown);
+}
+.footer {
+  background: var(--mainDark);
+  color: var(--mainLight);
+}
+.menu,
+.contact {
+  background: var(--mainGray);
+}
+.img-height-eq {
+  height: 15rem;
+}
